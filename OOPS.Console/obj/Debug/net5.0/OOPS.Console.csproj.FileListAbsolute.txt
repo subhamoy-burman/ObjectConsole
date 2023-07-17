@@ -1,0 +1,15 @@
+/Users/burmas3/CodePractices/OOPS.Console/OOPS.Console/obj/Debug/net5.0/OOPS.Console.csproj.AssemblyReference.cache
+/Users/burmas3/CodePractices/OOPS.Console/OOPS.Console/obj/Debug/net5.0/OOPS.Console.GeneratedMSBuildEditorConfig.editorconfig
+/Users/burmas3/CodePractices/OOPS.Console/OOPS.Console/obj/Debug/net5.0/OOPS.Console.AssemblyInfoInputs.cache
+/Users/burmas3/CodePractices/OOPS.Console/OOPS.Console/obj/Debug/net5.0/OOPS.Console.AssemblyInfo.cs
+/Users/burmas3/CodePractices/OOPS.Console/OOPS.Console/obj/Debug/net5.0/OOPS.Console.csproj.CoreCompileInputs.cache
+/Users/burmas3/CodePractices/OOPS.Console/OOPS.Console/bin/Debug/net5.0/OOPS.Console.deps.json
+/Users/burmas3/CodePractices/OOPS.Console/OOPS.Console/bin/Debug/net5.0/OOPS.Console.runtimeconfig.json
+/Users/burmas3/CodePractices/OOPS.Console/OOPS.Console/bin/Debug/net5.0/OOPS.Console.runtimeconfig.dev.json
+/Users/burmas3/CodePractices/OOPS.Console/OOPS.Console/bin/Debug/net5.0/OOPS.Console.dll
+/Users/burmas3/CodePractices/OOPS.Console/OOPS.Console/bin/Debug/net5.0/ref/OOPS.Console.dll
+/Users/burmas3/CodePractices/OOPS.Console/OOPS.Console/bin/Debug/net5.0/OOPS.Console.pdb
+/Users/burmas3/CodePractices/OOPS.Console/OOPS.Console/obj/Debug/net5.0/OOPS.Console.dll
+/Users/burmas3/CodePractices/OOPS.Console/OOPS.Console/obj/Debug/net5.0/ref/OOPS.Console.dll
+/Users/burmas3/CodePractices/OOPS.Console/OOPS.Console/obj/Debug/net5.0/OOPS.Console.pdb
+/Users/burmas3/CodePractices/OOPS.Console/OOPS.Console/obj/Debug/net5.0/OOPS.Console.genruntimeconfig.cache

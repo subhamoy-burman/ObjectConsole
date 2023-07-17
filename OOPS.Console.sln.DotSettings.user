@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1e2cfec6_002Dbde8_002D41c4_002D994e_002Db0e92fa3248f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestStaticConstructor #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::47AD07DC-C85E-4657-A475-7F9F1297E9EA::net5.0::OOPS.Console.Tests.Tests.TestStaticConstructor&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b8092e1b_002Db18c_002D4fd8_002D8dc9_002Dc76208db9b87/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestStaticConstructor" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::47AD07DC-C85E-4657-A475-7F9F1297E9EA::net5.0::OOPS.Console.Tests.PatternTests.SingletonTests.TestSingletonInstance&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::47AD07DC-C85E-4657-A475-7F9F1297E9EA::net5.0::OOPS.Console.Tests.PatternTests.SingletonTests.TestSingletonInstanceThreadSafety&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
