@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using OOPS.Console.Concepts;
+using OOPS.Console.Concepts.Delegates;
 
 namespace OOPS.Console.Tests
 {
@@ -26,6 +27,14 @@ namespace OOPS.Console.Tests
         {
             PrivateConstructors.CreateInstance();
             var _pv = PrivateConstructors.Instance;
+        }
+        
+        [Test]
+        public void TestDelegateCallback()
+        {
+            Calculator calculator = new Calculator();
+            PrintResult result = new PrintResult();
+            calculator.Add(10,2, result.Print);
         }
     }
 }
