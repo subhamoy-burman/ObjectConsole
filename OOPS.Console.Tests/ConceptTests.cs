@@ -2,9 +2,12 @@ using NUnit.Framework;
 using OOPS.Console.Concepts;
 using OOPS.Console.Concepts.Delegates;
 using OOPS.Console.Concepts.Delegates.DelegateAndEvent;
+using OOPS.Console.Concepts.Delegates.Events;
+using OOPS.Console.Concepts.Delegates.FuncAndAction;
 using OOPS.Console.Concepts.Delegates.Multicast;
 using OOPS.Console.Concepts.Delegates.MultipleDelegates;
 using OOPS.Console.Concepts.Delegates.OrderDelegates;
+using OOPS.Console.Concepts.Delegates.OverloadingOverriding;
 using OOPS.Console.Concepts.Lambdas;
 
 namespace OOPS.Console.Tests
@@ -81,6 +84,28 @@ namespace OOPS.Console.Tests
         {
             var sub = new Subscriber();
             
+        }
+
+        [Test]
+        public void EventDelegateTest()
+        {
+            var calc = new CalculatorConsumer();
+        }
+
+        [Test]
+        public void TestOrderConsumer()
+        {
+            var _order = new OrderEventConsumer();
+            _order.sub.CreateOrder();
+        }
+
+        [Test]
+        public void TestOperatorOverloading()
+        {
+            var v1 = new Vector2D(2, 3);
+            var v2 = new Vector2D(5, 9);
+
+            var sum = v1 + v2;
         }
     }
 }
