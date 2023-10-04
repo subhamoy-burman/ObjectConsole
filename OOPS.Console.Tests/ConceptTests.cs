@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using OOPS.Console.Concepts;
+using OOPS.Console.Concepts.AsyncAwaits;
 using OOPS.Console.Concepts.Delegates;
 using OOPS.Console.Concepts.Delegates.DelegateAndEvent;
 using OOPS.Console.Concepts.Delegates.Events;
@@ -106,6 +107,20 @@ namespace OOPS.Console.Tests
             var v2 = new Vector2D(5, 9);
 
             var sum = v1 + v2;
+        }
+
+        [Test]
+        public void TestAsync()
+        {
+            var v1 = new AsyncAwait();
+            v1.CallAsyncOperation();
+        }
+        
+        [Test]
+        public void TestAsync2()
+        {
+            var v1 = new AsyncAwait();
+            v1.ButtonClickEventHandler(null,null);
         }
     }
 }
