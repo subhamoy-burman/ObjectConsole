@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
@@ -50,8 +51,26 @@ namespace OOPS.Console.Concepts.AsyncAwaits
             Debug.WriteLine("Data retrieved successfully!");
             return "yes";
         }
+        
+        public async Task<List<int>> ReturnTenNumbers()
+        {
+            await Task.Delay(1000);
+            return new List<int>() {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        }
+        
+        public async Task<List<int>> ReturnFiveNumbers()
+        {
+            await Task.Delay(1000);
+            return new List<int>() {11,12,13,14,15};
+        }
+        
+        public async Task<List<int>> ReturnThreeNumbers()
+        {
+            await Task.Delay(1000);
+            return new List<int>() {16,17,18};
+        }
 
-        private async Task ConcurrentOperation()
+        public async Task ConcurrentOperation()
         {
             // This method represents a concurrent operation that can run simultaneously with the awaited operation
             await Task.Delay(1000);
@@ -74,5 +93,7 @@ namespace OOPS.Console.Concepts.AsyncAwaits
             // This could be any non-blocking operation or computation
             // ...
         }
+        
+        
     }
 }

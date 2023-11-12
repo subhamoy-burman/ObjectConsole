@@ -1,3 +1,6 @@
+using System.Collections.Concurrent;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using NUnit.Framework;
 using OOPS.Console.Concepts;
 using OOPS.Console.Concepts.AsyncAwaits;
@@ -10,6 +13,7 @@ using OOPS.Console.Concepts.Delegates.MultipleDelegates;
 using OOPS.Console.Concepts.Delegates.OrderDelegates;
 using OOPS.Console.Concepts.Delegates.OverloadingOverriding;
 using OOPS.Console.Concepts.Lambdas;
+using OOPS.Console.Solid;
 
 namespace OOPS.Console.Tests
 {
@@ -121,6 +125,26 @@ namespace OOPS.Console.Tests
         {
             var v1 = new AsyncAwait();
             v1.ButtonClickEventHandler(null,null);
+        }
+
+        [Test]
+        public void TestLSP()
+        {
+            Bird ostrich = new Ostrich();
+            //ostrich.
+        }
+        
+        [Test]
+        public async Task TestAsync3()
+        {
+            var v1 = new AsyncAwait();
+            var numbers = new List<Task> {v1.ReturnFiveNumbers(), v1.ReturnThreeNumbers(), v1.ReturnTenNumbers()};
+            await Task.WhenAll(numbers);
+            List<int> concurrentList = new List<int>();
+            foreach (var task in numbers)
+            {
+                await task;
+            }
         }
     }
 }
