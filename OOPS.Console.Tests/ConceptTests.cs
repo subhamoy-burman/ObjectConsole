@@ -146,5 +146,25 @@ namespace OOPS.Console.Tests
                 await task;
             }
         }
+
+        [Test]
+        public void TestDelegates()
+        {
+            DelegateDemo demo = new DelegateDemo();
+            DelegateDemo.MyDelegate myDelegate = new DelegateDemo.MyDelegate(demo.PrintMessage);
+            
+            myDelegate.Invoke("Printing general message");
+        }
+        
+        [Test]
+        public void TestDelegates2()
+        {
+            DelegateDemo demo = new DelegateDemo();
+            DelegateDemo.MyDelegate myDelegate = demo.PrintMessage;
+
+            myDelegate += demo.PrintMessageInUpperCase;
+            
+            myDelegate.Invoke("Convert this message to lower to upper");
+        }
     }
 }
